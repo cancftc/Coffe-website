@@ -190,6 +190,10 @@ header {
     animation-duration: 1.5s;
 }
 
+.img-fluid{
+    width: 100%;
+}
+
 @keyframes fade {
     from {
         opacity: 0.4;
