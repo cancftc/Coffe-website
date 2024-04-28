@@ -685,7 +685,7 @@ header {
     margin-top: 10px; 
 }
 
-/* responsive */
+/* responsive */ 
 @media (max-width: 768px) {
     .contact .contact-titles{
         width: 100%;
