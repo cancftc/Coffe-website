@@ -29,6 +29,12 @@ p{
     margin: 0 auto;
 }
 
+.container1 {
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 header {
     border-bottom: 1px solid #dee0ea;
 }
@@ -266,7 +272,7 @@ header {
 /*! categories end */
 
 .campaign-single{
-    background-image: url(../../img/single-campaign.png);
+    background-image: url(img/contact.jpg);
     padding: 140px 15px;
     display: flex;
     align-items: center;
@@ -329,20 +335,20 @@ header {
 }  
 
 .campaigns-wrapper:nth-child(1) .campaign-item:nth-child(1){
-    background-image: url(img/campaigns/banner1.png);
+    background-image: url(img/contact.jpg);
 }
 
 .campaigns-wrapper:nth-child(1) .campaign-item:nth-child(2){
-    background-image: url(img/campaigns/banner2.png);
+    background-image: url(img/contact.jpg);
 }
 
 .campaigns-wrapper:nth-child(2) .campaign-item:nth-child(1){
-    background-image: url(img/campaigns/banner3.png);
+    background-image: url(img/contact.jpg);
     flex: 5;
 }
 
 .campaigns-wrapper:nth-child(2) .campaign-item:nth-child(2){
-    background-image: url(img/campaigns/banner4.png);
+    background-image: url(img/contact.jpg);
     flex: 3;
 }
 
