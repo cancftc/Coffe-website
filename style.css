@@ -640,4 +640,77 @@ header {
     }
 }
 
+.slider-reviews{
+    position: relative;
+    margin-bottom: 30px;
+}
 
+.slider-reviews-item{
+    position: relative;
+    height: 400px;
+    width: 1300px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.slider-reviews-item .slider-reviews-image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    object-position: 60%;
+    z-index: -1;
+}
+
+.slider-reviews-item .slider-reviews-title{
+    font-size: 38px;
+    font-weight: 500;
+    color: white;
+}
+
+.slider-reviews-item .slider-reviews-heading{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.slider-reviews-item a{
+    z-index: 1;
+    position: relative;
+}
+
+.slider-reviews .slider-reviews-buttons{
+    position: absolute;
+    top: 0;
+    left: 1420px;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.slider-reviews-buttons button{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid #dee0ea;
+    background-color: white;
+    opacity: 0.5;
+    transition: .2s ease all;
+    margin-bottom: 10px;
+}
+
+.slider-reviews-buttons button:hover{
+    background-color: white;
+    opacity: 1;
+    color: black;
+    border-color:  black;
+}
+
+.slider-reviews-buttons button i{
+    font-size: 30px;
+}

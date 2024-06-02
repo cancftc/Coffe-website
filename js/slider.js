@@ -34,3 +34,35 @@ function showSlides(n) {
 }
 
 //! slider end
+
+//! slideIndexReviews start
+let slideIndexReviews = 1;
+showSlidesReviews(slideIndexReviews);
+
+setInterval(() => {
+  showSlidesReviews((slideIndexReviews += 1));
+}, 4000);
+
+function plusSlideReviews(n) {
+  showSlidesReviews((slideIndexReviews += n));
+}
+
+function currentSlide(n) {
+  showSlidesReviews((slideIndexReviews = n));
+}
+
+function showSlidesReviews(n) {
+  const slidesReviews = document.getElementsByClassName("slider-reviews-item");
+  if (n > slidesReviews.length) {
+    slideIndexReviews = 1;
+  }
+  if (n < 1) {
+    slideIndexReviews = slidesReviews.length;
+  }
+  for (let i = 0; i < slidesReviews.length; i++) {
+    slidesReviews[i].style.display = "none";
+  }
+
+  slidesReviews[slideIndexReviews - 1].style.display = "flex";
+}
+
